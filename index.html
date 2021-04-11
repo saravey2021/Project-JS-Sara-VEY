@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project HTML, CSS and JS (FAVORITE FOOD)</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    
+<h4 style="text-align: center; font-size: 40px; text-shadow: 3px 3px 6px rgb(61, 19, 177); color: #cc2121 ;">Welcome to my food shop</h4>
+
+<!-- date day month years -->
+<h1 style="color: black; width: 100%; text-align: center; margin-top: -40px; font-size: 25px;"></h1>
+
+<!-- hide show -->
+    <div class="container">
+        <div class="form-container">
+
+                <div class="button">
+                    <button id="create">Create</button>
+                    <button id="close">Close</button>
+                </div>
+
+            <header>
+                <div id="page-banner" style="text-align: center;">
+                    <h1>FAVORITE FOOD</h1>
+                    <p>Foods for yourself</p>
+                </div>
+            </header>
+            <form id="addAll">
+
+                <input id="add-food" type="text" placeholder="Add food..."  />
+                <input id="add-fruit" type="text" placeholder="Add fruit juice..." />
+                <input id="add-price" type="number" placeholder="Price of food and fruit juice..." min="1" max="100";/><br>
+                <input id="add-firstDate" type="date" />
+                <input id="add-lastDate" type="date" />
+                <div style="margin-left: 120px; margin-right: 127px;" id="order">
+                    <button>Submit</button>
+                </div>
+                
+            </form>
+
+                <div id="food-list">
+                    <div style="text-align: center;">
+                        <h2>Search about food!</h2>
+                        <form action="" id="search-food">
+                            <input type="text" placeholder="Search food and fruit juice..." />
+                        </form>
+                    </div>
+                        
+                    <ul style="list-style: none; margin-right: 120px; margin-left: 80px;">
+                        <li id="spoiler" role="aria-hidden">
+                            <span class="name">Pizza / Apple smoothie / 12.5$ / 2021-04-15</span>
+                            <span class="delete">x</span>
+                        </li>
+                        <li id="spoiler" role="aria-hidden">
+                            <span class="name">Marinated / Orange juice / 10.5$ / 2021-04-15</span>
+                            <span class="delete">x</span>
+                        </li>
+                    </ul>
+
+                </div>  
+            <div class="card-box"></div>  
+        </div>
+    </div>
+<!-- done hide show -->
+    
+</body>
+</html>

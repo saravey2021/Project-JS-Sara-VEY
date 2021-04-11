@@ -1,0 +1,85 @@
+.container {
+    margin: auto;
+    width: 60%;
+    justify-content: space-between;
+}
+.form-container {
+    background: #fff;
+    padding: 10px;
+    border: 3px solid rgb(50, 6, 248); 
+}
+#addAll {
+    text-align: center;
+}
+li {
+    border-left: 3px solid #6668f3;
+    border-right: 3px solid #6668f3;
+    margin: 10px 0;
+    align-items: center;
+    background: rgb(224, 223, 223);
+    border-radius: 10px;
+    padding: 15px;
+}
+.delete {
+    border-radius: 50%;
+    background-color: #dc3545;
+    color: #FFFFFF;
+    padding: 0px 5px;
+    cursor: pointer;
+    float: right;
+}
+input[type=text],
+input[type=number],
+input[type=date] {
+    background-color: white;
+    padding: 5px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+button {
+    background-color: #6668f3;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 20px;  
+    box-shadow: 4px 4px 4px #69646d;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background: #0bbbf1;
+    text-transform: uppercase;
+    color: #fff;
+}
+span {
+    color: red;
+}
+
+/* hide show */
+.form-box{
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+}
+#close{
+    display: none;
+    background: red;
+    color: #fff;
+}
+#create{
+    background: blue;
+    color: #ffff;
+}
+/* done */
+
+
+
+
+
+
+
+
+
